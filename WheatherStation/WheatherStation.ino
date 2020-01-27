@@ -133,10 +133,10 @@ void TaskBuzzerCode(void * pvParameters) {
     }
     digitalWrite(ledPin, LOW);
     resetLimits = 0;
-    float minTemperatureGlobal = -200;
-    float maxTemperatureGlobal = 100;
-    float minHumidityGlobal = 0;
-    float maxHumidityGlobal = 100;
+    minTemperatureGlobal = -200;
+    maxTemperatureGlobal = 100;
+    minHumidityGlobal = 0;
+    maxHumidityGlobal = 100;
     delay(3000);
     Serial.println("Limits were restarted");
 
